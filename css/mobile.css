@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  #personal-info {
+    padding-right: 25px;
+  }
+  .cer-content-2 {
+    border-left: 0;
+    border-top: 2px solid #d3e4a6;
+    padding-top: 20px;
+  }
+  #fotter a:link {
+    margin-right: 10px;
+  }
+  #cach {
+    display: inline-block;
+  }
+  .project-flex {
+    height: auto;
+  }
+  .ic-megaphone,
+  .ic-hotairballoon,
+  .ic-strategy,
+  .ic-basket {
+    border-color: #0abde3;
+  }
+}
